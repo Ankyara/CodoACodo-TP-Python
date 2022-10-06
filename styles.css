@@ -64,7 +64,7 @@ header .navLinks a:hover{
 /* --------------------------------- Banner --------------------------------- */
 .banner {
   text-align: center;
-  background-image: url(/imagenes/Particles.png);
+  background-image: url(imagenes/Particles.png);
   padding-bottom: 3%;
 }
 
