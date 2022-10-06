@@ -1,153 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/65bb99c3d5.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/65bb99c3d5.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
 </head>
+
 <body>
 
-    <div class="container">
+  <div class="container">
 
-        <!-- ---------------------------- Navs + Header ---------------------------- -->
-         <div class="navRedes">
-            <img src="#" alt="" id="logoRedes">
-            <a href="#" target="_blank"></a>Contacto <span><i class="fa-solid fa-circle-small"></i></span>
-            <ul>
-                <li><a href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i></li>
-                <li><a href="#" target="_blank"></a><i class="fa-brands fa-youtube"></i></li>
-                <li><a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></li>
-                <li><a href="#" target="_blank"></a><i class="fa-brands fa-linkedin"></i></li>
-            </ul>
-         </div>
-         <div class="navbar">
-            <ul>
-                <li><a href="#"></a>Nosotros</li>
-                <li><a href="#"></a>Productos</li>
-                <li><a href="#"></a>Recetas</li>
-                <li><a href="#"></a>Locales</li>
-            </ul>
-         </div>
+    <!-- ---------------------------- Navs + Header ---------------------------- -->
+    <header>
 
+      <div class="logo">
+        <img src="imagenes/ChocolandWhite.png" alt="">
+      </div>
 
-         <header class="banner">
-            <h1>CHOCOLAND</h1>
-            <h2>Chocolates artesanales</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolor laudantium rerum, excepturi est praesentium
-              natus qui? Tempora rerum, numquam inventore eligendi in, nostrum reprehenderit, eum cumque fugit eaque
-              similique!</p>
-            <a href="#" class="btn">
-              Leer más!<i class="fa-solid fa-chevrons-right"></i>
-            </a>
-          </header>
+      <nav>
+        <ul class="navLinks">
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Recetas</a></li>
+          <li><a href="#">Locales</a></li>
+          <li><a href="#">Contacto</a></li>
+      </nav>
+      
 
-        
-        <!-- ----------------------- Productos - Flip cards ------------------------ -->
-        <div class="productos">
+      <nav>
+        <ul class="navRedes">
+          <li><a href="#"><img src="imagenes/pinterest.png" alt=""></a></li>
+          <li><a href="#"><img src="imagenes/instagram.png" alt=""></a></li>
+          <li><a href="#"><img src="imagenes/facebook.png" alt=""></a></li>
+          <li><a href="#"><img src="imagenes/linkedin.png" alt=""></a></li>
+        </ul>
+      </nav>
 
+    </header>
 
+      <!-- ------------------------------- Banner -------------------------------- -->
+      <div class="banner">
+        <img src="/imagenes/LogoBN.png" alt="">
+        <h1>Chocolates artesanales</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolor laudantium rerum, excepturi est
+          praesentium
+          natus qui? Tempora rerum, numquam inventore eligendi in, nostrum reprehenderit, eum cumque fugit eaque
+          similique!</p>
+        <a href="#" id="buttonBanner">
+          +Info <i class="fa-solid fa-angles-right"></i>
+        </a>
+      </div>
 
+      <!-- --------------------- Divisor - Titulos Secciones --------------------- -->
+      <div class="divisor">
+        <h2>PRODUCTOS</h2>
+      </div>
 
+      <!-- ------------------------------ Productos ------------------------------ -->
+      <div class="cardsProductos">
+
+        <div class="card">
+          <figure>
+            <img src="/imagenes/ChocoCafe.jpg">
+          </figure>
+          <div class="contenidoCard">
+            <h3>Barra de chocolate 60% Cacao y granos de café</h3>
+            <p>Presentación: tabletas de 100g.</p>
+          </div>
         </div>
 
-
-        <!-- -------------------------- Recetas - Cards -------------------------- -->
-        <div class="cardsRecetas">
-
-            <div>
-                <img src="#" alt=""/>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-                  doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-                </p>
-                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
-            </div>
-
-            
-            <div>
-                <img src="#" alt=""/>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-                  doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-                </p>
-                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
-            </div>
-
-            <div>
-                <img src="#" alt=""/>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-                  doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-                </p>
-                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
-            </div>
-
-            <div>
-                <img src="#" alt=""/>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-                  doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-                </p>
-                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
-            </div>            
+        <div class="card">
+          <figure>
+            <img src="/imagenes/ChocoAlpino.jpg">
+          </figure>
+          <div class="contenidoCard">
+            <h3>Barras de Chocolate Alpino</h3>
+            <p>Presentación: Tabletas de 100g. Opciones: Blanco, Chocolate Amargo y Chocolate con Leche. 
+            </p>
+          </div>
         </div>
 
-        <div class="cardsRecetas">
-
-            <div>
-                <img src="#" alt=""/>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-                  doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-                </p>
-                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
-            </div>
-
-            <div>
-                <img src="#" alt=""/>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-                  doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-                </p>
-                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
-            </div>
-
-            <div>
-                <img src="#" alt=""/>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-                  doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-                </p>
-                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
-            </div>
-
-            <div>
-                <img src="#" alt=""/>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-                  doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-                </p>
-                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
-            </div>            
+        <div class="card">
+          <figure>
+            <img src="#">
+          </figure>
+          <div class="contenidoCard">
+            <h3>Producto3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae repellendus dolorem laborum
+              labore amet.</p>
+          </div>
         </div>
 
+        <div class="card">
+          <figure>
+            <img src="#">
+          </figure>
+          <div class="contenidoCard">
+            <h3>Producto4</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae repellendus dolorem laborum
+              labore amet.</p>
+          </div>
+        </div>
+
+      </div>
 
 
+      <div class="cardsProductos">
 
+        <div class="card">
+          <figure>
+            <img src="#">
+          </figure>
+          <div class="contenidoCard">
+            <h3>Producto1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quia quo atque error alias non?</p>
+          </div>
+        </div>
 
+        <div class="card">
+          <figure>
+            <img src="#">
+          </figure>
+          <div class="contenidoCard">
+            <h3>Producto2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odit magni rerum, accusantium illo modi?
+            </p>
+          </div>
+        </div>
 
+        <div class="card">
+          <figure>
+            <img src="#">
+          </figure>
+          <div class="contenidoCard">
+            <h3>Producto3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae repellendus dolorem laborum
+              labore amet.</p>
+          </div>
+        </div>
 
+        <div class="card">
+          <figure>
+            <img src="#">
+          </figure>
+          <div class="contenidoCard">
+            <h3>Producto4</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae repellendus dolorem laborum
+              labore amet.</p>
+          </div>
+        </div>
 
+      </div>
 
+      <!-- --------------------- Divisor - Titulos Secciones --------------------- -->
+      <div class="divisor">
+        <h2>RECETAS</h2>
+      </div>
 
-
-
-
+      <!-- -------------------------- Recetas - Cards -------------------------- -->
+     
+  <div class="cardReceta">
+    <img src="/imagenes/ChocoAlpino.jpg" alt="" />
+    <div class="contenidoReceta">
+      <h3>RECETA 1</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+        doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+      </p>
+      <a href="#"><i class="fas fa-angle-double-right"></i></a>
     </div>
-    
+  </div>
+  
+
+     
+  <div class="cardReceta2">
+    <img src="/imagenes/ChocoAlpino.jpg" alt="" />
+    <div class="contenidoReceta">
+      <h3>RECETA 2</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+        doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+      </p>
+      <a href="#"><i class="fas fa-angle-double-right"></i></a>
+    </div>
+  </div>
+
+       
+  <div class="cardReceta">
+    <img src="/imagenes/ChocoAlpino.jpg" alt="" />
+    <div class="contenidoReceta">
+      <h3>RECETA 3</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+        doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+      </p>
+      <a href="#"><i class="fas fa-angle-double-right"></i></a>
+    </div>
+  </div>
+
+  <!-- --------------------------- Divisor Locales --------------------------- -->
+  <div class="divisor">
+    <h2>LOCALES</h2>
+  </div>
+
+  <!-- ------------------------------- Locales ------------------------------- -->
+  <div class="locales">
+    <div class="mapaLocal">
+      <iframe width="300" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.264042739058!2d-58.4592075!3d-34.5721849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d9a6edb601%3A0x9fabea6b7b3ce1e8!2sAv.%20Elcano%203127%2C%20C1426%20CABA!5e0!3m2!1ses!2sar!4v1665013266194!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  
+    <div class="contenidoLocal">
+      <h3><i class="fa-solid fa-location-dot"></i> Sucursal Colegiales</h3>
+      <p>Av. Elcano 3127, Colegiales, Ciudad Autónoma de Buenos Aires.<br>
+      <strong>Horarios:</strong> Lu-Vi 10-20 hs.</p>
+    </div>
+  </div>
+
+   <!-- ----------------------------------------------------------------------- -->
+  <div class="locales">
+    <div class="mapaLocal">
+      <iframe width="300" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.640454711954!2d-58.423188!3d-34.587963099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb587349b8133%3A0x3159abae57ec5b14!2sMalabia%202014%2C%20C1425%20CABA!5e0!3m2!1ses!2sar!4v1665014026424!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  
+    <div class="contenidoLocal">
+      <h3><i class="fa-solid fa-location-dot"></i> Sucursal Palermo</h3>
+      <p>Malabia 2014, Palermo, Ciudad Autónoma de Buenos Aires.<br>
+      <strong>Horarios:</strong> Lu-Sa 10-20 hs.</p>
+    </div>
+  </div>
+
+  <!-- ----------------------------------------------------------------------- -->
+  <div class="locales">
+    <div class="mapaLocal">
+      <iframe width="300" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.89460192651!2d-58.46235300000001!3d-34.5562239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42a04bab463%3A0xebf52715bd15e1bb!2sAv.%20Cabildo%202812%2C%20C1428AAX%20CABA!5e0!3m2!1ses!2sar!4v1665014334765!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  
+    <div class="contenidoLocal">
+      <h3><i class="fa-solid fa-location-dot"></i> Sucursal Belgrano</h3>
+      <p>Av. Cabildo 2812, Belgrano, Ciudad Autónoma de Buenos Aires.<br>
+      <strong>Horarios:</strong> Lu-Sa 10-22 hs.</p>
+    </div>
+  </div>
+
+  <!-- ------------------------------- Footer -------------------------------- -->
+
+  <footer>
+    <!-- <div class="logoFooter">
+    <img src="/imagenes/ChocolandWhite.png" alt="">
+   </div> -->
+
+    <nav>
+      <ul class="navFooter">
+        <li><a href="#"><i class="fa-brands fa-square-pinterest fa-3x"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-square-instagram fa-3x"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-square-envelope fa-3x"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-square-facebook fa-3x"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin fa-3x"></i></a></li>
+      </ul>
+    </nav>
+ </footer>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
 </body>
+
 </html>
