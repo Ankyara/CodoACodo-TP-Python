@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/65bb99c3d5.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Shiba</title>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
     <header>
 
       <div class="logo">
-        <img src="imagenes/ChocolandWhite.png" alt="">
+        <img src="imagenes/ShibaPink.png" alt="">
       </div>
 
       <nav>
@@ -30,237 +31,290 @@
           <li><a href="#">Locales</a></li>
           <li><a href="#">Contacto</a></li>
       </nav>
-      
+
 
       <nav>
         <ul class="navRedes">
-          <li><a href="#"><img src="imagenes/pinterest.png" alt=""></a></li>
-          <li><a href="#"><img src="imagenes/instagram.png" alt=""></a></li>
-          <li><a href="#"><img src="imagenes/facebook.png" alt=""></a></li>
-          <li><a href="#"><img src="imagenes/linkedin.png" alt=""></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-pinterest fa-2xl"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
         </ul>
       </nav>
 
     </header>
 
-      <!-- ------------------------------- Banner -------------------------------- -->
-      <div class="banner">
-        <img src="imagenes/LogoBN.png" alt="">
-        <h1>Chocolates artesanales</h1>
+    <!-- ------------------------------- Banner -------------------------------- -->
+    <div class="banner">
+      <img src="/imagenes/ShibaPink.png" alt="">
+
+      <div>
+        <h1 class="animate__animated animate__bounceInDown">Chocolates Artesanales</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolor laudantium rerum, excepturi est
           praesentium
           natus qui? Tempora rerum, numquam inventore eligendi in, nostrum reprehenderit, eum cumque fugit eaque
           similique!</p>
-        <a href="#" id="buttonBanner">
-          +Info <i class="fa-solid fa-angles-right"></i>
-        </a>
+        <!-- <a href="#" id="buttonBanner"> +Info <i class="fa-solid fa-angles-right"></i></a> -->
       </div>
 
-      <!-- --------------------- Divisor - Titulos Secciones --------------------- -->
-      <div class="divisor">
-        <h2>PRODUCTOS</h2>
+    </div>
+
+    <!-- --------------------- Divisor - Titulos Secciones --------------------- -->
+    <div class="divisor">
+      <h2>PRODUCTOS</h2>
+    </div>
+
+    <!-- ------------------------------ Productos ------------------------------ -->
+    <section class="tarjetasProductos">
+
+      <div class="card-p">
+        <figure>
+          <img src="imagenes/Producto1.jpg">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Chocolate 60% y Café</h3>
+          <p>Chocolate negro al 60% cacao. Con granos de café colombianos.</p>
+          <p class="presentacion"><strong>Presentación:</strong> Tabletas de 150gs.</p>
+
+        </div>
       </div>
 
-      <!-- ------------------------------ Productos ------------------------------ -->
-      <div class="cardsProductos">
-
-        <div class="card">
-          <figure>
-            <img src="imagenes/ChocoCafe.jpg">
-          </figure>
-          <div class="contenidoCard">
-            <h3>Barra de chocolate 60% Cacao y granos de café</h3>
-            <p>Presentación: tabletas de 100g.</p>
-          </div>
+      <div class="card-p">
+        <figure>
+          <img src="imagenes/Producto2.jpg">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Barras de Chocolate Alpino</h3>
+          <p>Chocolate alpino con leche, amargo y blanco. </p>
+          <p class="presentacion"><strong>Presentación:</strong> Tabletas de 100gs.</p>
         </div>
-
-        <div class="card">
-          <figure>
-            <img src="imagenes/ChocoAlpino.jpg">
-          </figure>
-          <div class="contenidoCard">
-            <h3>Barras de Chocolate Alpino</h3>
-            <p>Presentación: Tabletas de 100g. Opciones: Blanco, Chocolate Amargo y Chocolate con Leche. 
-            </p>
-          </div>
-        </div>
-
-        <div class="card">
-          <figure>
-            <img src="#">
-          </figure>
-          <div class="contenidoCard">
-            <h3>Producto3</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae repellendus dolorem laborum
-              labore amet.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <figure>
-            <img src="#">
-          </figure>
-          <div class="contenidoCard">
-            <h3>Producto4</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae repellendus dolorem laborum
-              labore amet.</p>
-          </div>
-        </div>
-
       </div>
 
-
-      <div class="cardsProductos">
-
-        <div class="card">
-          <figure>
-            <img src="#">
-          </figure>
-          <div class="contenidoCard">
-            <h3>Producto1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quia quo atque error alias non?</p>
-          </div>
+      <div class="card-p">
+        <figure>
+          <img src="imagenes/Producto3.jpg">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Mil Hojas</h3>
+          <p>Chocolate con leche, blanco y semi amargo. Relleno con dulce de leche.</p>
+          <p class="presentacion"><strong>Presentación:</strong> Caja de 6 o 12 unidades.</p>
         </div>
-
-        <div class="card">
-          <figure>
-            <img src="#">
-          </figure>
-          <div class="contenidoCard">
-            <h3>Producto2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odit magni rerum, accusantium illo modi?
-            </p>
-          </div>
-        </div>
-
-        <div class="card">
-          <figure>
-            <img src="#">
-          </figure>
-          <div class="contenidoCard">
-            <h3>Producto3</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae repellendus dolorem laborum
-              labore amet.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <figure>
-            <img src="#">
-          </figure>
-          <div class="contenidoCard">
-            <h3>Producto4</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae repellendus dolorem laborum
-              labore amet.</p>
-          </div>
-        </div>
-
       </div>
 
-      <!-- --------------------- Divisor - Titulos Secciones --------------------- -->
-      <div class="divisor">
-        <h2>RECETAS</h2>
+      <div class="card-p">
+        <figure>
+          <img src="imagenes/Producto4.jpg">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Frutos Secos</h3>
+          <p>Chocolate con leche, blanco y semi amargo. Con mix de frutos secos.</p>
+          <p class="presentacion"><strong>Presentación:</strong> Caja de 6 o 12 unidades.</p>
+        </div>
       </div>
 
-      <!-- -------------------------- Recetas - Cards -------------------------- -->
-     
-  <div class="cardReceta">
-    <img src="imagenes/ChocoAlpino.jpg" alt="" />
-    <div class="contenidoReceta">
-      <h3>RECETA 1</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-        doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-      </p>
-      <a href="#"><i class="fas fa-angle-double-right"></i></a>
-    </div>
-  </div>
-  
+    </section>
 
-     
-  <div class="cardReceta2">
-    <img src="imagenes/ChocoAlpino.jpg" alt="" />
-    <div class="contenidoReceta">
-      <h3>RECETA 2</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-        doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-      </p>
-      <a href="#"><i class="fas fa-angle-double-right"></i></a>
-    </div>
-  </div>
 
-       
-  <div class="cardReceta">
-    <img src="imagenes/ChocoAlpino.jpg" alt="" />
-    <div class="contenidoReceta">
-      <h3>RECETA 3</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-        doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-      </p>
-      <a href="#"><i class="fas fa-angle-double-right"></i></a>
-    </div>
-  </div>
+    <section class="tarjetasProductos">
 
-  <!-- --------------------------- Divisor Locales --------------------------- -->
-  <div class="divisor">
-    <h2>LOCALES</h2>
-  </div>
+      <div class="card-p">
+        <figure>
+          <img src="imagenes/Producto5.jpg">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Rama</h3>
+          <p>Chocolate en rama. Blanco, leche y semi amargo.</p>
+          <p class="presentacion"><strong>Presentación:</strong> Venta al peso.</p>
+        </div>
+      </div>
 
-  <!-- ------------------------------- Locales ------------------------------- -->
-  <div class="locales">
-    <div class="mapaLocal">
-      <iframe width="300" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.264042739058!2d-58.4592075!3d-34.5721849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d9a6edb601%3A0x9fabea6b7b3ce1e8!2sAv.%20Elcano%203127%2C%20C1426%20CABA!5e0!3m2!1ses!2sar!4v1665013266194!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  
-    <div class="contenidoLocal">
-      <h3><i class="fa-solid fa-location-dot"></i> Sucursal Colegiales</h3>
-      <p>Av. Elcano 3127, Colegiales, Ciudad Autónoma de Buenos Aires.<br>
-      <strong>Horarios:</strong> Lu-Vi 10-20 hs.</p>
-    </div>
-  </div>
+      <div class="card-p">
+        <figure>
+          <img src="imagenes/Producto6.jpg">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Sublime</h3>
+          <p>Barra bañadas de chocolate con leche. Rellena de mousse de chocolate, whisky y ron.</p>
+          <p class="presentacion"><strong>Presentación:</strong> Caja de 6 o 12 unidades.</p>
+        </div>
+      </div>
 
-   <!-- ----------------------------------------------------------------------- -->
-  <div class="locales">
-    <div class="mapaLocal">
-      <iframe width="300" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.640454711954!2d-58.423188!3d-34.587963099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb587349b8133%3A0x3159abae57ec5b14!2sMalabia%202014%2C%20C1425%20CABA!5e0!3m2!1ses!2sar!4v1665014026424!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  
-    <div class="contenidoLocal">
-      <h3><i class="fa-solid fa-location-dot"></i> Sucursal Palermo</h3>
-      <p>Malabia 2014, Palermo, Ciudad Autónoma de Buenos Aires.<br>
-      <strong>Horarios:</strong> Lu-Sa 10-20 hs.</p>
-    </div>
-  </div>
+      <div class="card-p">
+        <figure>
+          <img src="imagenes/Producto7.jpg">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Cherry</h3>
+          <p>Cereza macerada con licor kirsh, bañada en chocolate semi amargo, cubierta de fondant.</p>
+          <p class="presentacion"><strong>Presentación:</strong> Venta al peso.</p>
+        </div>
+      </div>
 
-  <!-- ----------------------------------------------------------------------- -->
-  <div class="locales">
-    <div class="mapaLocal">
-      <iframe width="300" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.89460192651!2d-58.46235300000001!3d-34.5562239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42a04bab463%3A0xebf52715bd15e1bb!2sAv.%20Cabildo%202812%2C%20C1428AAX%20CABA!5e0!3m2!1ses!2sar!4v1665014334765!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  
-    <div class="contenidoLocal">
-      <h3><i class="fa-solid fa-location-dot"></i> Sucursal Belgrano</h3>
-      <p>Av. Cabildo 2812, Belgrano, Ciudad Autónoma de Buenos Aires.<br>
-      <strong>Horarios:</strong> Lu-Sa 10-22 hs.</p>
-    </div>
-  </div>
+      <div class="card-p">
+        <figure>
+          <img src="/imagenes/Producto8.jpg">
+        </figure>
+        <div class="contenidoCard">
+          <h3>80% Cacao</h3>
+          <p>Tableta de chocolate negro al 80% cacao.</p>
+          <p class="presentacion"><strong>Presentación:</strong> Tabletas de 150gs.</p>
+        </div>
+      </div>
 
-  <!-- ------------------------------- Footer -------------------------------- -->
+    </section>
 
-  <footer>
-    <!-- <div class="logoFooter">
+
+    <section class="tarjetasProductos">
+
+      <div class="card-p">
+        <figure>
+          <img src="imagenes/Producto9.png">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Semillas</h3>
+          <p>Tabletas de chocolate con leche. Con mix de semillas.</p>
+          <p class="presentacion"><strong>Presentación:</strong> Tabletas de 150gs.</p>
+        </div>
+      </div>
+
+      <div class="card-p">
+        <figure>
+          <img src="imagenes/Producto10.png">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Amargo con Semillas.</h3>
+          <p>Tabletas de chocolate amargo al 65% cacao. Con mix de semillas.</p>
+          <p class="presentacion"><strong>Presentación:</strong> Tabletas de 150gs.</p>
+        </div>
+      </div>
+
+      <div class="card-p">
+        <figure>
+          <img src="/imagenes/Producto11.jpg">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Frambuesa</h3>
+          <p>Chocolate negro al 65% cacao. Relleno con frambuesas y kirsh</p>
+          <p class="presentacion"><strong>Presentación:</strong> Caja de 6 o 12 unidades.</p>
+        </div>
+      </div>
+
+      <div class="card-p">
+        <figure>
+          <img src="/imagenes/Producto12.jpg">
+        </figure>
+        <div class="contenidoCard">
+          <h3>Coco</h3>
+          <p>Bombones rellenos de turrón de coco, bañados con chocolate negro.</p>
+          <p class="presentacion"><strong>Presentación:</strong> Tabletas de 150gs.</p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- --------------------- Divisor - Titulos Secciones --------------------- -->
+    <div class="divisor">
+      <h2>RECETAS</h2>
+    </div>
+
+    <!-- -------------------------- Recetas - Cards -------------------------- -->
+    <section class="tarjetasRecetas">
+      <div class="card-r">
+        <img src="imagenes/brownie80.jpg" alt="">
+        <a href="#"><p>Brownie Intenso 80%</p></a>
+      </div>
+
+      <div class="card-r">
+        <img src="imagenes/alpinos.jpg" alt="">
+        <a href="#"><p>Alpinos con frutos secos</p></a>
+      </div>
+
+      <div class="card-r">
+        <img src="imagenes/chococafe.jpg" alt="">
+        <a href="#"><p>Cuadrados Chococafé</p></a>
+      </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- --------------------------- Divisor Locales --------------------------- -->
+    <div class="divisor">
+      <h2>LOCALES</h2>
+    </div>
+
+    <!-- ------------------------------- Locales ------------------------------- -->
+    <div class="locales">
+      <div class="mapaLocal">
+        <iframe width="300" height="200"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.264042739058!2d-58.4592075!3d-34.5721849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d9a6edb601%3A0x9fabea6b7b3ce1e8!2sAv.%20Elcano%203127%2C%20C1426%20CABA!5e0!3m2!1ses!2sar!4v1665013266194!5m2!1ses!2sar"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="contenidoLocal">
+        <h3><i class="fa-solid fa-location-dot"></i> Sucursal Colegiales</h3>
+        <p>Av. Elcano 3127, Colegiales, Ciudad Autónoma de Buenos Aires.<br>
+          <strong>Horarios:</strong> Lu-Vi 10-20 hs.
+        </p>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <div class="locales">
+      <div class="mapaLocal">
+        <iframe width="300" height="200"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.640454711954!2d-58.423188!3d-34.587963099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb587349b8133%3A0x3159abae57ec5b14!2sMalabia%202014%2C%20C1425%20CABA!5e0!3m2!1ses!2sar!4v1665014026424!5m2!1ses!2sar"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="contenidoLocal">
+        <h3><i class="fa-solid fa-location-dot"></i> Sucursal Palermo</h3>
+        <p>Malabia 2014, Palermo, Ciudad Autónoma de Buenos Aires.<br>
+          <strong>Horarios:</strong> Lu-Sa 10-20 hs.
+        </p>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <div class="locales">
+      <div class="mapaLocal">
+        <iframe width="300" height="200"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.89460192651!2d-58.46235300000001!3d-34.5562239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42a04bab463%3A0xebf52715bd15e1bb!2sAv.%20Cabildo%202812%2C%20C1428AAX%20CABA!5e0!3m2!1ses!2sar!4v1665014334765!5m2!1ses!2sar"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="contenidoLocal">
+        <h3><i class="fa-solid fa-location-dot"></i> Sucursal Belgrano</h3>
+        <p>Av. Cabildo 2812, Belgrano, Ciudad Autónoma de Buenos Aires.<br>
+          <strong>Horarios:</strong> Lu-Sa 10-22 hs.
+        </p>
+      </div>
+    </div>
+
+    <!-- ------------------------------- Footer -------------------------------- -->
+
+    <footer>
+      <!-- <div class="logoFooter">
     <img src="/imagenes/ChocolandWhite.png" alt="">
    </div> -->
 
-    <nav>
-      <ul class="navFooter">
-        <li><a href="#"><i class="fa-brands fa-square-pinterest fa-3x"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-square-instagram fa-3x"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-square-envelope fa-3x"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-square-facebook fa-3x"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-linkedin fa-3x"></i></a></li>
-      </ul>
-    </nav>
- </footer>
+      <nav>
+        <ul class="navFooter">
+          <li><a href="#"><i class="fa-brands fa-square-pinterest fa-3x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-instagram fa-3x"></i></a></li>
+          <li><a href="#"><i class="fa-solid fa-square-envelope fa-3x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-facebook fa-3x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin fa-3x"></i></a></li>
+        </ul>
+      </nav>
+    </footer>
 
 
 
