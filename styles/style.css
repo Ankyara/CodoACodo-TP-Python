@@ -20,10 +20,25 @@
   background-color: #454545;
 }
 
+.arriba1, .arriba2{
+  text-align: end;
+  padding: 30px;
+}
+
+.fa-circle-up{
+  color: #e39ba3;
+}
+
+.fa-circle-up:hover{
+  transform: scale(1.2);
+}
+
+.arriba1{
+  background-color: #d9d9d9;
+}
 /* --------------------------------- Header --------------------------------- */
 header .logo img {
   width: 100px;
-  /* padding: 15px; */
 }
 
 header {
@@ -74,6 +89,10 @@ header .navLinks a{
   align-items: center;
   row-gap: 50px;
   margin: 50px;
+}
+
+.banner img:hover{
+  transform: scale(1.2);
 }
 
 .banner p {
