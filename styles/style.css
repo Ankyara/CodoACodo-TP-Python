@@ -57,7 +57,7 @@ header .navLinks, .navRedes {
 
 header .navLinks li, .navRedes li {
   display: inline-block;
-  padding: 25px 2px;
+  padding: 25px 3px;
 }
 
 header .navLinks a{
@@ -82,24 +82,30 @@ header .navLinks a{
 /* --------------------------------- Banner --------------------------------- */
 .banner {
   text-align: center;
-  background-image: url(/imagenes/Particles.png);
+  background-image: url(/imagenes/particles.png); /* by  https://loading.io/ */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  row-gap: 50px;
-  margin: 50px;
+  padding: 30px 0; 
 }
 
 .banner img:hover{
   transform: scale(1.2);
 }
 
-.banner p {
-  padding: 10px 25%;
-  font-size: 20px;  
-  margin: 20px 0;
+.banner h1{
+  margin-top: 50px;
+  font-size: 50px;
 }
+
+.banner p {
+  padding: 10px 20%;
+  font-size: 20px;  
+  font-weight: bold;
+  margin: 10px 0;
+}
+
 
 /* #buttonBanner {
   border: solid 3px  #d84b5b;
@@ -278,9 +284,6 @@ footer .navFooter li {
 .fa-circle {
   vertical-align: super;
 }
-
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                                Media Queries                               */
